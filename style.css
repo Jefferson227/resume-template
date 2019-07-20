@@ -3,6 +3,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container__left-side,
@@ -11,14 +12,34 @@
   flex-direction: column;
 }
 
-.container__left-side__profile-photo {
+.container__left-side__profile-info:nth-child(2) {
+  margin-top: 35px;
+}
+
+.container__left-side__profile-info__photo {
   border-radius: 100%;
 }
 
-.container__left-side__profile-name {
-  font-family: "Montserrat", sans-serif;
+.container__left-side__profile-info__name {
   margin: 0 auto;
   font-weight: bold;
   font-size: 21px;
   margin-top: 22px;
+  color: #f68e72;
+}
+
+.container__left-side__profile-info__line-item {
+  margin-bottom: 24px;
+}
+
+.container__left-side__profile-info__line-item:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.container__left-side__profile-info__line-item__text {
+  margin-left: 10px;
+}
+
+.container__left-side__profile-info__line-item__icon {
+  font-size: 28px;
 }
