@@ -12,15 +12,19 @@
   flex-direction: column;
 }
 
-.container__left-side__profile-info:nth-child(2) {
-  margin-top: 35px;
+.profile-info {
+  margin-bottom: 35px;
 }
 
-.container__left-side__profile-info__photo {
+.profile-info--last {
+  margin-bottom: 0;
+}
+
+.profile-info__photo {
   border-radius: 100%;
 }
 
-.container__left-side__profile-info__name {
+.profile-info__name {
   margin: 0 auto;
   font-weight: bold;
   font-size: 21px;
@@ -28,18 +32,18 @@
   color: #f68e72;
 }
 
-.container__left-side__profile-info__line-item {
+.profile-info__line-item {
   margin-bottom: 24px;
 }
 
-.container__left-side__profile-info__line-item:nth-last-child(1) {
+.profile-info__line-item--last {
   margin-bottom: 0;
 }
 
-.container__left-side__profile-info__line-item__text {
+.profile-info__text {
   margin-left: 10px;
 }
 
-.container__left-side__profile-info__line-item__icon {
+.profile-info__icon {
   font-size: 28px;
 }
