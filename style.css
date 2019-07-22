@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: row;
   font-family: "Montserrat", sans-serif;
+  color: #525354;
 }
 
 .container__left-side,
@@ -46,4 +47,30 @@
 
 .profile-info__icon {
   font-size: 28px;
+}
+
+.profile-info__header {
+  font-weight: bold;
+}
+
+.profile-info__header,
+.profile-info__dot--filled {
+  color: #f68e72;
+}
+
+.profile-info__dot {
+  margin-right: 14px;
+}
+
+.profile-info__dot--last {
+  margin-right: 0;
+}
+
+.profile-info__dots {
+  font-size: 13px;
+  color: #cfcfcf;
+}
+
+.profile-info__language {
+  margin-bottom: 7px;
 }
