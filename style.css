@@ -14,7 +14,7 @@
 }
 
 .profile-info {
-  margin-bottom: 35px;
+  margin-bottom: 31px;
 }
 
 .profile-info--last {
@@ -73,4 +73,10 @@
 
 .profile-info__language {
   margin-bottom: 7px;
+}
+
+.profile-info__hobbies-icons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
 }
