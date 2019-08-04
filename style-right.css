@@ -6,6 +6,25 @@
   box-sizing: border-box;
 }
 
-.greeting {
+.text-intro {
+  margin-bottom: 48px;
+}
+
+.text-intro__greeting {
   color: #f68e72;
+}
+
+.title__word {
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 21px;
+}
+
+.title__icon {
+  font-size: 28px;
+  padding: 14px 17px;
+  box-sizing: border-box;
+  background: #f68e72;
+  color: #fff;
+  border-radius: 100%;
 }
